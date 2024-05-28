@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        body {
+            height: 100vh;
+            background-color: black;
+            background-size: cover;
+            background-position: position;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: tomato;
+            font-size: 1rem;
+        }
+
+        a:hover {
+            color: grey;
+
+        }
+
+        .links {
+            color: tomato;
+
+        }
+
+        .links li:hover {
+            color: grey;
+        }
+
+        header {
+            position: relative;
+            padding: 0 2rem;
+
+        }
+
+        .navbar {
+            width: 100%;
+            height: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .navbar .links {
+            display: flex;
+            gap: 2rem;
+
+        }
+
+        .search {
+            border-radius: 4px;
+            width: 150px;
+            background-color: white;
+        }
+
+        .logo img {
+            height: 45px;
+            width: 35px;
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .main {
+            background: grey;
+        }
+
+        .main div h1 {
+            color: tomato;
+            width: 100%;
+            text-align: center;
+            padding: 4vh;
+
+
+        }
+
+
+
+
+        /* Add styles for the photo gallery section */
+        .photo-gallery {
+            background-color: tomato;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .photo-gallery h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image {
+            margin: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+
+        /* Additional content section */
+        .additional-content {
+            background-color: white;
+            color: black;
+            padding: 40px 0;
+        }
+
+        .additional-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .additional-content ul {
+            list-style-type: disc;
+            margin-left: 30px;
+        }
+
+        /* Footer, as previously defined */
+        .container {
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logom.png" alt="">
+
+            </div>
+
+            <ul class="links">
+                <li><a href="1stpage.php">HOME</a></li>
+                <li><a href="womens.php">WOMENS</a></li>
+                <li><a href="kids.php">KIDS</a></li>
+                <li><a href="mens.php">MENS</a></li>
+                <li><a href="accesories.php"></a></li>
+                <input type="search" name="" id="" placeholder="Search your Merch" class="search">
+                <li><a href="loginpage.html">Login</a></li>
+            </ul>
+
+
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="about-us">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Welcome to our merchandise store, where quality meets style.</p>
+                <p>Our mission is to provide you with the best merchandise, handpicked from around the world. Whether
+                    you're looking for clothing, accessories, or unique collectibles, we have something for everyone.
+                </p>
+                <p>At our core, we believe in:</p>
+                <ul>
+                    <li>Quality: We only source the highest quality products for our customers.</li>
+                    <li>Style: Our merchandise is curated to reflect the latest trends and timeless classics.</li>
+                    <li>Customer Satisfaction: Your happiness is our priority, and we strive to exceed your
+                        expectations.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="photo-gallery">
+            <div class="container">
+                <h2>Our Gallery</h2>
+                <div class="gallery-images">
+                    <div class="image">
+                        <img src="" alt="Image 1">
+                    </div>
+                    <div class="image">
+                        <img src="" alt="Image 2">
+                    </div>
+                    <div class="image">
+                        <img src="" alt="Image 3">
+                    </div>
+                    <div class="image">
+                        <img src="" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="additional-content">
+            <div class="container">
+                <h2>Our Story</h2>
+                <p>
+                        <header>
+                            <h1>Welcome to [Merchandise website]</h1>
+                        </header>
+                        <section>
+                            <h2>Our Story</h2>
+                            <p>We are a passionate team dedicated to <em>[briefly describe your mission or purpose]</em>. Our journey began in <em>[mention founding year or date]</em>, and since then, we've been committed to <em>[highlight your core values or goals]</em>.</p>
+                        </section>
+                        <section>
+                            <h2>Our Mission</h2>
+                            <p>At <strong>[Your Company Name]</strong>, we believe in <em>[mention your unique selling proposition or approach]</em>. Our dedicated team of professionals works tirelessly to <em>[briefly explain your primary offerings or services]</em>.</p>
+                        </section>
+                        <section>
+                            <h2>Our Achievements</h2>
+                            <p>We take pride in our commitment to <em>[mention any specific achievements or recognition]</em>.</p>
+                        </section>
+                        <footer>
+                            <p>Thank you for visiting our website. We invite you to explore our <a href="[1stpage.php]">products/services</a> and learn more about <em>[mention any unique features or aspects that set you apart]</em>. If you have any questions or would like to connect with us, please don't hesitate to <a href="[contact page]">reach out</a>. We look forward to <em>[briefly describe your vision for the future]</em>.</p>
+                        </footer>
+                    
+                    .</p><br>
+
+                <h2>Our Team</h2>
+                <p>Meet the dedicated individuals behind our merchandise store:</p>
+                <ul>
+                    <li>Abhishek Prasad - CEO</li>
+                    <li>Aryan Rao - Creative Director</li>
+                    <li>Raunak Yadav - Operations Manager</li>
+                    <li>Vinay Chirag Kadam - Customer Support</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

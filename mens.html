@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        body {
+            height: 100vh;
+            background-color: black;
+            background-size: cover;
+            background-position: position;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: tomato;
+            font-size: 1rem;
+        }
+
+        a:hover {
+            color: grey;
+
+        }
+
+        .links {
+            color: tomato;
+
+        }
+
+        .links li:hover {
+            color: grey;
+        }
+
+        header {
+            position: relative;
+            padding: 0 2rem;
+
+        }
+
+        .navbar {
+            width: 100%;
+            height: 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .navbar .links {
+            display: flex;
+            gap: 2rem;
+
+        }
+
+        .search {
+            border-radius: 4px;
+            width: 150px;
+            background-color: white;
+        }
+
+        .logo img {
+            height: 45px;
+            width: 35px;
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        .container h1 {
+            color: tomato;
+            text-align: center;
+            background-color: grey;
+        }
+
+        .container h1:hover {
+            color: white;
+
+        }
+
+        .container h2 {
+            color: white;
+            text-align: center;
+            background-color: tomato;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            transition: 1s;
+            /* transition bas photo kitna der tak hoga vahi hota hai */
+
+        }
+
+        /* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+
+        .never {
+            border-style: inset;
+            border-color: grey;
+        }
+
+        .never h1 {
+            color: grey;
+            background-color: black;
+            text-align: center;
+
+
+
+
+        }
+
+        .never h3 {
+            background-color: black;
+            color: tomato;
+            text-align: center;
+        }
+        .j{
+            height: 35rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logom.png" alt="">
+
+            </div>
+
+            <ul class="links">
+                <li><a href="1stpage.html">HOME</a></li>
+                <li><a href="womens.html">WOMENS</a></li>
+                <li><a href="kids.html">KIDS</a></li>
+                <li><a href="mens.html">MENS</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <input type="search" name="" id="" placeholder="Search your Merch" class="search">
+                <li><a href="login.php">LOGIN</a></li>
+            </ul>
+
+
+        </div>
+    </header>
+    <main class="container">
+        <div class="img">
+            <img src="mensbg1.jpg" alt="">
+
+        </div>
+        <br>
+        <br>
+        <h1>COLLECTIONS</h1>
+
+        <h2>"Empower the Adventure Within"</h2>
+
+        <div class="row">
+
+            <div class="column">
+                <a href="mens.html" target="_blank">
+                    <form action="managecart.php" method="post">
+
+                        <img src="hokage.jpg" alt="" width="100%" class="j">
+                        <h3>BLACK ANIME OVERSIZE</h3>
+                        <p>GOJO SATAROU</p>
+                        <p>$90.</p>
+                        <input type="submit" value="Add to Cart" name="cart" class="cart">
+                        <input type="hidden" name="item_name" value="GOJO OVERSIZE">
+                        <input type="hidden" name="price" value="$90.">
+
+                    </form>
+
+                </a>
+            </div>
+            <div class="column">
+                <a href="mensoversize3.jpg" target="_blank">
+                    <form action="managecart.php" method="post" >
+
+                        
+                        <img src="akatski.jpg" alt="" width="100%" class="j">
+                        <h3>PURPLE ANIME OVERSIZE</h3>
+                        <p>GOJO SATAROU</p>
+                        <p>$89.</p>
+                        <input type="submit" value="Add to Cart" name="cart" class="cart">
+                        <input type="hidden" name="item_name" value="GOJO BLACK OVERSIZE">
+                        <input type="hidden" name="price" value="$90.">
+
+                    </form>
+                        
+                </a>
+            </div>
+            <div class="column">
+                <a href="mens.html" target="_blank">
+                    <form action="managecart.php">
+
+                        
+                        <img src="otherso.jpeg" alt="" width="100%" class="j">
+                        <h3>BLACK ANIME OVERSIZE</h3>
+                        <p>SON GOKU</p>
+                        <p>$90.</p>
+                        <input type="submit" value="Add to Cart" name="cart" class="cart">
+                        <input type="hidden" name="item_name" value="SON GOKU OVERSIZE">
+                        <input type="hidden" name="price" value="$90.">
+
+                    </form>
+                        
+                </a>
+            </div>
+        </div>
+
+    </main>
+    <div class="never">
+
+        <h1>NEVER PAY</h1><br>
+        <h3>MORE AGAIN</h3>
+    </div>
+    <main class="container">
+        <div class="row">
+            <div class="column">
+                <a href="mens.html" target="_blank">
+
+                    <img src="tanjiroushoes.webp" alt="" width="100%">
+                    <h3>BEST ANIME SHOES</h3>
+                    <p>BLACK CLOVER</p>
+                    <p>$100.</p>
+                    <input type="submit" value="Add to Cart" name="cart" class="cart">
+
+                </a>
+            </div>
+            <div class="column">
+                <a href="mensoversize3.jpg" target="_blank">
+
+                    <img src="mhashoes.webp" alt="" width="100%">
+                    <h3>SAITAMA SHOES</h3>
+                    <p>SAITAMA</p>
+                    <p>$129.</p>
+                    <input type="submit" value="Add to Cart" name="cart" class="cart">
+
+                </a>
+            </div>
+            <div class="column">
+                <a href="mens.html" target="_blank">
+
+                    <img src="zoro.webp" alt="" width="100%">
+                    <h3>AKATSKI</h3>
+                    <p>PAIN</p>
+                    <p>$199.</p>
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    </main>
+</body>
+
+</html>
