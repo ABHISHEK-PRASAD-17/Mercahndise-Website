@@ -1,17 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "register";
+$conn = mysqli_connect("localhost","root","","admin");
 
-$conn = mysqli_connect($servername,$username,$password,$dbname);
-if($conn){
-    echo "Connection succes";
+if(mysqli_connect_error()){
+    echo "Cannot connect";
+}
 
-}
-else
-{
-    echo"Connection Failed" .mysqli_connect_error();
-}
+
+
 ?>
